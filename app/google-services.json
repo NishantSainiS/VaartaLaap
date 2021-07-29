@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "78214573930",
+    "firebase_url": "https://vaartalaap-49b88-default-rtdb.firebaseio.com",
+    "project_id": "vaartalaap-49b88",
+    "storage_bucket": "vaartalaap-49b88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78214573930:android:5e3c63a401df75065cff13",
+        "android_client_info": {
+          "package_name": "com.me.nss.vaartalaap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78214573930-rm10k2k2vrplun1k614j8suesf90cv88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.me.nss.vaartalaap",
+            "certificate_hash": "8506df266bf66bbf6cee86aa63538048ec83d441"
+          }
+        },
+        {
+          "client_id": "78214573930-1hda7tsdrhkohlmhhrj4mgjq9ftbdbrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfv1oHnZTALmzPRDahKJTru8z5ueyfFbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78214573930-1hda7tsdrhkohlmhhrj4mgjq9ftbdbrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VaartaLaap</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="userEmailLogin">Email</string>
+    <string name="userPasswordLogin">Password</string>
+    <string name="click_for_signup">Click for SignUp</string>
+    <string name="loginBtnLogin">LOGIN</string>
+    <string name="googleBtnLogin">GOOGLE</string>
+    <string name="facebookBtnLogin">Facebook</string>
+    <string name="sign_up_with_phone">Sign up with phone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

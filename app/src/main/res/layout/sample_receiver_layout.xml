@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/bg_receiver"
+    android:maxWidth="310dp"
+    android:maxHeight="400dp">
+
+    <TextView
+        android:id="@+id/receiverText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="3dp"
+        android:inputType="textLongMessage|textMultiLine"
+        android:maxWidth="270dp"
+        android:minWidth="50dp"
+        android:text="kesa h ye bata"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/receiveTime"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/receiveTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:00pm"
+        android:textSize="10sp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="6dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
